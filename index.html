@@ -42,6 +42,19 @@
   <fieldset>
    <div class="by-pro"><h1 class="open-panel" onclick="openPanel()">Menu</h1></div>
    <var>☝️Press menu to download facebook videos and Report problem in our app  </var>
+   <ul>
+  <li class="prev"><a href="">prev</a></li>
+  <li class="page"><a href="">Games</a></li>
+  <p></p>
+  <li class="page"><a href="">promotion</a></li>
+  <p></p>
+  <p></p>
+  <li class="page"><a href="">Apps</a></li>
+  <p></p>
+  <li class="page"><a href="">Pc</a></li>
+  <p></p>
+  <li class="next"><a href="">Next</a></li>
+ </ul>
     <marquee>School apps and more</marquee>
     <div class="horizontal-container">
    <div class="item"><img src="https://i.ibb.co/4p8RzsX/download-5.jpg"></div>
@@ -956,6 +969,7 @@ a {
     
   }
 </style>
+ 
 </head>
 <body>
 
@@ -984,6 +998,51 @@ a {
     document.querySelector('.sliding-panel').style.right = '-250px';
   }
 </script>
+ <style>
+  ul{
+    background:white;
+    display:flex;
+    padding: 10px 20px;
+    border-radius:20px;
+  }
+  ul li{
+    list-style: none;
+    line-height: 50px;
+    margin:0 6px;
+  }
+  ul li a{
+    display:block;
+    text-decoration: none;
+    color:black;
+    border-radius:20%;
+    
+  }
+  ul li.page{
+    width:20px;
+    height: 10px;
+    line-height: 50px;
+    text-align: center;
+  }
+  ul li.page:hover a,
+  ul li.page:active a{
+    background:pink;
+    color:white;
+  }
+  ul li.prev:hover a,
+  ul li.next:hover a{
+    color:pink;
+  }
+  ul li.prev{
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  ul li.next{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+</style>
 </body>
 </html>
   </fieldset>
